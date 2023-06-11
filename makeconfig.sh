@@ -19,3 +19,4 @@ sudo chmod +x mosquitto.conf
 sudo mv mosquitto.conf /etc/mosquitto/
 
 echo "conf file moved successfully."
+sudo rm makeconfig.sh
