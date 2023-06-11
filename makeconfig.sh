@@ -13,3 +13,8 @@ sed -i "s/domainName/$hostname/g" mosquitto.conf
 
 # Echo a completion message
 echo "Replacement complete."
+
+# Moving file to destination
+mv mosquitto.conf /etc/mosquitto/mosquitto.conf
+
+echo "conf file moved successfully."
