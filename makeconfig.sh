@@ -15,6 +15,7 @@ sed -i "s/domainName/$hostname/g" mosquitto.conf
 echo "Replacement complete."
 
 # Moving file to destination
+sudo chmod +x mosquitto.conf
 sudo mv mosquitto.conf /etc/mosquitto/
 
 echo "conf file moved successfully."
