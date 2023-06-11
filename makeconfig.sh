@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Download mosquitto standard conf file.
+wget https://github.com/msanaullahsahar/mqtt/blob/main/mosquitto.conf
+
 # Get the hostname
 hostname=$(hostname)
 
